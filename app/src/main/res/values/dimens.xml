@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeSmall">15sp</dimen>
+    <dimen name="textSizeMedium">20sp</dimen>
+    <dimen name="textSizeLarge">25sp</dimen>
+
+    <dimen name="marginSizeSmall">10dp</dimen>
+    <dimen name="marginSizeMedium">20dp</dimen>
+    <dimen name="marginSizeLarge">30dp</dimen>
+
+</resources>

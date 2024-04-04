@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShowPetPictures</string>
+    <string name="textSelect">선택을 시작하시겠숨까?</string>
+
+    <string name="checkStart">선택 시작</string>
+
+    <string name="textFavorite">좋아하는 동물은 뭐심까?</string>
+
+    <string name="radioDog">개</string>
+    <string name="radioCat">고양이</string>
+    <string name="radioRabbit">토끼</string>
+
+    <string name="done">선택완료</string>
+</resources>

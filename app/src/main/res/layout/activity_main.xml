@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/marginSizeMedium"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/textSelect"
+        android:textSize="@dimen/textSizeLarge" />
+
+    <CheckBox
+        android:id="@+id/checkStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/checkStart"
+        android:textSize="@dimen/textSizeMedium" />
+
+    <LinearLayout
+        android:id="@+id/linearSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/textFavorite"
+            android:textSize="@dimen/textSizeMedium" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginSizeMedium" >
+            <RadioButton
+                android:id="@+id/radioDog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/radioDog"
+                android:textSize="@dimen/textSizeSmall" />
+            <RadioButton
+                android:id="@+id/radioCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/radioCat"
+                android:textSize="@dimen/textSizeSmall" />
+            <RadioButton
+                android:id="@+id/radioRabbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/radioRabbit"
+                android:textSize="@dimen/textSizeSmall" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeSmall"
+            android:text="@string/done" />
+        <ImageView
+            android:id="@+id/imgV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dog"
+            android:layout_margin="@dimen/marginSizeLarge"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</LinearLayout>
