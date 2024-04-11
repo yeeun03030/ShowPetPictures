@@ -1,14 +1,21 @@
 <resources>
     <string name="app_name">ShowPetPictures</string>
-    <string name="textSelect">선택을 시작하시겠숨까?</string>
+    <string name="textSelect">선택을 시작하겠습니까?</string>
 
-    <string name="checkStart">선택 시작</string>
+    <string name="checkStart">시작함</string>
 
-    <string name="textFavorite">좋아하는 동물은 뭐심까?</string>
+    <string name="textFavorite">좋아하는 안드로이드 버전은?</string>
 
     <string name="radioDog">개</string>
     <string name="radioCat">고양이</string>
     <string name="radioRabbit">토끼</string>
 
+    <string name="radioO">오레오(8.0)</string>
+    <string name="radioP">파이(9.0)</string>
+    <string name="radioQ">Q(10.0)</string>
+
     <string name="done">선택완료</string>
+
+    <string name="exit">종료</string>
+    <string name="start">처음으로</string>
 </resources>

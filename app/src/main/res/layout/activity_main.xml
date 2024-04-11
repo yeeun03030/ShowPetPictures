@@ -16,13 +16,13 @@
         android:text="@string/textSelect"
         android:textSize="@dimen/textSizeLarge" />
 
-    <CheckBox
+    <Switch
         android:id="@+id/checkStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:text="@string/checkStart"
-        android:textSize="@dimen/textSizeMedium" />
+        android:textSize="@dimen/textSizeSmall" />
 
     <LinearLayout
         android:id="@+id/linearSub"
@@ -43,40 +43,105 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/marginSizeMedium" >
             <RadioButton
-                android:id="@+id/radioDog"
+                android:id="@+id/radioOreo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:text="@string/radioDog"
+                android:text="@string/radioO"
                 android:textSize="@dimen/textSizeSmall" />
             <RadioButton
-                android:id="@+id/radioCat"
+                android:id="@+id/radioPie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:text="@string/radioCat"
+                android:text="@string/radioP"
                 android:textSize="@dimen/textSizeSmall" />
             <RadioButton
-                android:id="@+id/radioRabbit"
+                android:id="@+id/radioQ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:text="@string/radioRabbit"
+                android:text="@string/radioQ"
                 android:textSize="@dimen/textSizeSmall" />
         </RadioGroup>
-        <Button
-            android:id="@+id/btnDone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/textSizeSmall"
-            android:text="@string/done" />
         <ImageView
             android:id="@+id/imgV"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/dog"
-            android:layout_margin="@dimen/marginSizeLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android_oreo"
+            android:layout_margin="@dimen/marginSizeSmall"
             android:scaleType="fitCenter" />
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginSizeMedium"
+            android:textSize="@dimen/textSizeSmall"
+            android:text="@string/exit" />
+
+        <Button
+            android:id="@+id/btnInit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginSizeMedium"
+            android:textSize="@dimen/textSizeSmall"
+            android:text="@string/start" />
+
     </LinearLayout>
 
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearSub"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/textFavorite"-->
+<!--            android:textSize="@dimen/textSizeMedium" />-->
+
+<!--        <RadioGroup-->
+<!--            android:id="@+id/rg"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="@dimen/marginSizeMedium" >-->
+<!--            <RadioButton-->
+<!--                android:id="@+id/radioDog"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:text="@string/radioDog"-->
+<!--                android:textSize="@dimen/textSizeSmall" />-->
+<!--            <RadioButton-->
+<!--                android:id="@+id/radioCat"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:text="@string/radioCat"-->
+<!--                android:textSize="@dimen/textSizeSmall" />-->
+<!--            <RadioButton-->
+<!--                android:id="@+id/radioRabbit"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:text="@string/radioRabbit"-->
+<!--                android:textSize="@dimen/textSizeSmall" />-->
+<!--        </RadioGroup>-->
+<!--        <Button-->
+<!--            android:id="@+id/btnDone"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="@dimen/textSizeSmall"-->
+<!--            android:text="@string/done" />-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imgV"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:src="@drawable/dog"-->
+<!--            android:layout_margin="@dimen/marginSizeLarge"-->
+<!--            android:scaleType="fitCenter" />-->
+<!--    </LinearLayout>-->
 </LinearLayout>
